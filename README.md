@@ -3,7 +3,7 @@
 After following these instruction you will have a network with three nodes running with onchain nodes and accounts permissioning enabled.
 
 ## Requirements
-1. Node and npm
+1. Java (8+), Node and npm
 1. Chrome with Metamask installed (https://metamask.io/)
 1. Truffle installed (https://www.trufflesuite.com/docs/truffle/getting-started/installation)
 1. Pantheon installed (https://pantheon.readthedocs.io/en/latest/Installation/Install-Binaries/)
