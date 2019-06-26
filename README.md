@@ -1,11 +1,12 @@
 # Pantheon Onchain Permissioning Management Dapp
 
-TODO: description of the repo and environment
+After following these instruction you will have a network with three nodes running with onchain nodes and accounts permissioning enabled.
 
 ## Requirements
 1. A browser with Metamask installed (Chrome recommended)
-1. Pantheon installed (TODO: link to instructions)
-1. Permissioning Smart Contracts project checked out and ready to be used (link to instructions)
+1. Pantheon installed ([instruction](https://pantheon.readthedocs.io/en/latest/Installation/Install-Binaries/))
+1. Permissioning Smart Contracts project checked out and ready to be used (https://github.com/PegaSysEng/permissioning-smart-contracts)
+1. This repository checked out! :)
 
 ## Starting up the first node
 1. Run the script `node0` to start the first node
