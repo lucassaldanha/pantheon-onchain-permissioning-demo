@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+rm -rf data_node0/database/
+rm -rf data_node1/database/
+rm -rf data_node2/database/
