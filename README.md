@@ -3,8 +3,10 @@
 After following these instruction you will have a network with three nodes running with onchain nodes and accounts permissioning enabled.
 
 ## Requirements
-1. A browser with Metamask installed (Chrome recommended)
-1. Pantheon installed ([instruction](https://pantheon.readthedocs.io/en/latest/Installation/Install-Binaries/))
+1. Node and npm
+1. Chrome with Metamask installed (https://metamask.io/)
+1. Truffle installed (https://www.trufflesuite.com/docs/truffle/getting-started/installation)
+1. Pantheon installed (https://pantheon.readthedocs.io/en/latest/Installation/Install-Binaries/)
 1. Permissioning Smart Contracts project checked out and ready to be used (https://github.com/PegaSysEng/permissioning-smart-contracts)
 1. This repository checked out! :)
 
