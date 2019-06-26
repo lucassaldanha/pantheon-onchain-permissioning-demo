@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-./pantheon --config-file=node2.toml
+pantheon --config-file=node2.toml

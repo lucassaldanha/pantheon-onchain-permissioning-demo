@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-./pantheon --config-file=node0.toml --bootnodes
+pantheon --config-file=node0.toml --bootnodes
