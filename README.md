@@ -3,7 +3,7 @@
 After following these instruction you will have a network with three nodes running with onchain nodes and accounts permissioning enabled.
 
 ## Requirements
-1. Java (8+), Node and npm
+1. Java (8+), Node and yarn
 1. Chrome with Metamask installed (https://metamask.io/)
 1. Truffle installed (https://www.trufflesuite.com/docs/truffle/getting-started/installation)
 1. Pantheon installed (https://pantheon.readthedocs.io/en/latest/Installation/Install-Binaries/)
@@ -27,7 +27,7 @@ After following these instruction you will have a network with three nodes runni
 
 ## Deploying all permissioning smart contracts
 1. Navigate to the Permissioning Smart Contracts project directory
-1. If this is the first time you are compiling and deploying the contracts, run `npm install`
+1. If this is the first time you are compiling and deploying the contracts, run `yarn install`
 1. Create a `.env` file with the following content:
     ```
     PANTHEON_NODE_PERM_ACCOUNT="0xfe3b557e8fb62b89f4916b721be55ceb828dbd73"
@@ -40,8 +40,8 @@ After following these instruction you will have a network with three nodes runni
 1. Wait until truffle finishes deploying all the permissioning contracts
 
 ## Starting the Pantheon Permissioning Management Dapp
-1. If this is the first time you are running the dapp, run `npm install`
-1. Run `npm start`
+1. Navigate to the Permissioning Smart Contracts project directory (if you aren't already in it)
+1. Run `yarn start`
 1. Navigate to `http://localhost:3000/`
 1. Double check that your Metamask is connected to your local node (`http://localhost:8545`)
 1. You should be able to see the Whitelisted Accounts tab with one account whitelisted (your account `0xfe3b557e8fb62b89f4916b721be55ceb828dbd73`)
