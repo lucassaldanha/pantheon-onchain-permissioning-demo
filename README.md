@@ -43,7 +43,7 @@ This demo has been tested with Pantheon 1.1.3 and with the commit 27dbc38 of the
 
 ## Starting the Pantheon Permissioning Management Dapp
 1. Navigate to the Permissioning Smart Contracts project directory (if you aren't already in it)
-1. Run `yarn build`
+1. Run `yarn build` (This step only needs to be done once per build.)
 1. Run `yarn start`
 1. Navigate to `http://localhost:3000/`
 1. Double check that your Metamask is connected to your local node (`http://localhost:8545`)
